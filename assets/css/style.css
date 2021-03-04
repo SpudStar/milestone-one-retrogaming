@@ -46,6 +46,12 @@ a:hover{
     color:#FFF!important;
 }
 
+.section-title{
+    color:#FFF;
+    padding-top:40px;
+    text-transform:uppercase;
+}
+
 /* Nav Elements--------------------------------------------------------*/
 nav{
     width:100%;
@@ -62,6 +68,10 @@ nav{
     height:60px;
     text-decoration:none;
     color:#FFF;
+}
+
+.mainlogo h1{
+    padding-top:5px;
 }
 
 .list-inline-item:not(:last-child){
@@ -113,7 +123,7 @@ nav{
 /* Hero Image Elements--------------------------------------------------------*/
 header{
 
-    background: url('../images/HeroImageTetris.jpg') center center / cover no-repeat fixed;
+    background: url('../images/hero-image-tetris.jpg') center center / cover no-repeat fixed;
     width:100%;
     padding-bottom:40%;
     max-height:600px;
@@ -148,6 +158,22 @@ header{
 
 }
 
+/* About Us Elements--------------------------------------------------------*/
+#about-us{
+    background-image:url('../images/aboutsection.jpg') center center / cover repeat fixed;
+    background-color:#5a0d0d;
+    min-height:400px;
+    text-align:center;
+}
+
+/* Open Times Elements--------------------------------------------------------*/
+#open-times{
+    background-color:#632163;
+    min-height:400px;
+    text-align:center;
+}
+
+
 /* Footer Elements--------------------------------------------------------*/
 footer{
     text-align:center;
@@ -174,3 +200,4 @@ footer{
     border: 3px solid black;
     padding-top:3px;
 }
+
