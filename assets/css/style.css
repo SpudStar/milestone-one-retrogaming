@@ -179,6 +179,10 @@ header{
     margin:auto;
 }
 
+.about-us-text p{
+    margin:20px;
+}
+
 .about-us-image{
     max-width:400px!important;
     height:auto;
@@ -197,12 +201,18 @@ header{
     background-color:#036161;
     min-height:400px;
     text-align:center;
+    padding-top:60px;
 }
 
 #media-videos{
     background-color:#036161;
     min-height:400px;
     text-align:center;
+}
+
+.video-container{
+    margin:40px auto;
+    min-width:440px;
 }
 
 /* Sign Up Elements--------------------------------------------------------*/
