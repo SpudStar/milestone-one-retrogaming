@@ -1,0 +1,121 @@
+/* Colours-------------------------------------------------------------*/
+.nav-aboutus-link{
+    background-color:#be1616a8;
+}
+
+.nav-opentimes-link{
+    background-color:#cf51cfa8;
+}
+
+.nav-media-link{
+    background-color:#02afafa8;
+}
+
+.nav-signup-link{
+    background-color:#c07813a8;
+}
+
+.test{
+    background-color:#787878;
+}
+
+/* Nav Elements--------------------------------------------------------*/
+nav{
+    width:100%;
+    margin:0;
+    background-color:#333333;
+    text-align: center;
+    position:fixed;
+    top:0;
+    display:block;
+    z-index: 1;
+}
+
+.mainlogo{
+    height:60px;
+}
+
+.list-inline-item:not(:last-child){
+    margin:0;
+}
+
+.nav-container{
+    max-height:60px;
+}
+
+#nav{
+    padding:0;
+    margin-top:0;
+    margin:auto;
+    display:flex;
+    height:100%;
+    max-width:480px;
+}
+
+.nav-list-item{
+    max-width:120px;
+    width:25%;
+    margin:0;
+    font-size:16px;
+    height:60px;
+}
+
+.nav-list-item a{
+    width:100%;
+    height:100%;
+    text-decoration:none;
+    color:#fff;
+    padding-top: 1rem;
+}
+
+.nav-list-item a i{
+    font-size:0;
+}
+
+@media  (max-width: 400px) {
+    .nav-list-item{
+        font-size:0;
+    }
+
+    .nav-list-item a i{
+        font-size:30px;
+    }
+}
+/* Hero Image Elements--------------------------------------------------------*/
+header{
+
+    background: url('../images/HeroImageTetris.jpg') center center / cover no-repeat fixed;
+    width:100%;
+    padding-bottom:40%;
+    max-height:600px;
+}
+
+.hero-image-content{
+    color:#FFF;
+    position:relative;
+    padding:12rem 10% 50px;
+    text-align:center;
+    text-transform:uppercase;
+    display:block;
+}
+
+.hero-image-content h1{
+    padding-bottom:30px;
+}
+
+.hero-image-button{
+  display:block;
+  height: 60px;
+  width: 180px;
+  background-color:#c07813;
+  border: 3px solid black;
+  border-radius: 25px;
+  padding-top: 15px;
+  margin:auto;
+}
+
+.hero-button-text{
+    color:white;
+
+}
+
