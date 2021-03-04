@@ -49,7 +49,13 @@ a:hover{
 .section-title{
     color:#FFF;
     padding-top:40px;
+    padding-bottom:30px;
     text-transform:uppercase;
+}
+
+img {
+    width:100%;
+    height:auto;
 }
 
 /* Nav Elements--------------------------------------------------------*/
@@ -164,6 +170,17 @@ header{
     background-color:#5a0d0d;
     min-height:400px;
     text-align:center;
+    display:block;
+}
+
+.about-us-text{
+    color:#FFF;
+}
+
+.about-us-image{
+    max-width:300px!important;
+    height:auto;
+    margin:auto;
 }
 
 /* Open Times Elements--------------------------------------------------------*/
