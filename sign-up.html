@@ -10,12 +10,39 @@
     
     <title>Retro Gamers | Sign Up</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"/>
 </head>
 <body>
-    //Insert Nav here
-    
-    <section>
+<!--Nav Bar------------------------------------------------------------------------>
+    <nav>
+        <div class="row no-gutters">
+        <a href="index.html" class="col-md-6 col-sm-12 mainlogo">
+            <h1>RETRO GAMERS</h1>
+        </a>
+           <div class="col-md-6 col-sm-12 nav-container">
+                <ul id="nav" class="list-inline">
+                    <li class="list-inline-item nav-aboutus-link nav-list-item">
+                        <a href="index.html#about-us" class="hvr-fade"><i class="fa fa-question-circle-o" aria-hidden="true"></i>About Us</a>
+                    </li>
+                    <li class="list-inline-item nav-opentimes-link nav-list-item">
+                        <a href="index.html#open-times" class="hvr-fade"><i class="fa fa-calendar" aria-hidden="true"></i>Open Times</a>
+                    </li>
+                    <li class="list-inline-item nav-media-link nav-list-item">
+                        <a href="media.html" class="hvr-fade"><i class="fa fa-picture-o" aria-hidden="true"></i>Media</a>
+                    </li>
+                    <li class="list-inline-item nav-signup-link nav-list-item">
+                        <a href="sign-up.html" class="hvr-fade"><i class="fa fa-id-card-o" aria-hidden="true"></i>Sign Up</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+  <!--Display benefits of being a member------------------------------------------------------------------------>  
+    <section id="member-benefits">
         //Membership benefits
         <h2>Become a Member!</h2>
         <div>
@@ -31,5 +58,31 @@
             </ul>
         </div>
     </section>
+  <!--Submission Form------------------------------------------------------------------------>  
+    <section id="form">
+        <form>
+            
+        </form>
+    </section>
+
+<!--Footer------------------------------------------------------------------------>
+    <footer>
+        <h4>Follow us on Social Media!</h4>
+            <ul id="footer" class="list-inline">
+                <li class="list-inline-item footer-list-item">
+                    <a href="https://www.facebook.com" target="_blank" rel="noopener" class="footer-facebook-link"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li class="list-inline-item footer-list-item">
+                    <a href="https://www.twitter.com" target="_blank" rel="noopener" class="footer-twitter-link"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li class="list-inline-item footer-list-item">
+                    <a href="https://www.youtube.com" target="_blank" rel="noopener" class="footer-youtube-link "><i class="fa fa-youtube"></i></a>
+                </li>
+                <li class="list-inline-item footer-list-item">
+                    <a href="https://www.twitch.com" target="_blank" rel="noopener" class="footer-twitch-link"><i class="fa fa-twitch"></i></a>
+                </li>
+            </ul>
+    </footer>
+
 </body>
 </html>

@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=DotGothic16&display=swap');
+
 /* Colours-------------------------------------------------------------*/
 .nav-aboutus-link{
     background-color:#be1616a8;
@@ -51,6 +53,7 @@ a:hover{
     padding-top:40px;
     padding-bottom:30px;
     text-transform:uppercase;
+    font-size:35px;
 }
 
 img {
@@ -72,12 +75,10 @@ nav{
 
 .mainlogo{
     height:60px;
+    padding-top:5px;
     text-decoration:none;
     color:#FFF;
-}
-
-.mainlogo h1{
-    padding-top:5px;
+    font-family: 'DotGothic16';
 }
 
 .list-inline-item:not(:last-child){
@@ -175,10 +176,11 @@ header{
 
 .about-us-text{
     color:#FFF;
+    margin:auto;
 }
 
 .about-us-image{
-    max-width:300px!important;
+    max-width:400px!important;
     height:auto;
     margin:auto;
 }
@@ -190,6 +192,31 @@ header{
     text-align:center;
 }
 
+/* Media Elements--------------------------------------------------------*/
+#media-photos{
+    background-color:#036161;
+    min-height:400px;
+    text-align:center;
+}
+
+#media-videos{
+    background-color:#036161;
+    min-height:400px;
+    text-align:center;
+}
+
+/* Sign Up Elements--------------------------------------------------------*/
+#member-benefits{
+    background-color:#6b430a;
+    min-height:400px;
+    text-align:center;
+}
+
+#form{
+    background-color:#6b430a;
+    min-height:400px;
+    text-align:center;
+}
 
 /* Footer Elements--------------------------------------------------------*/
 footer{
