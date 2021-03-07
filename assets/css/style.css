@@ -5,7 +5,13 @@
     background-color:#be1616a8;
 }
 
+.hvr-fade{
+    transition-property: color,background-color ;
+}
+
 /*
+
+
 transition-property: color,background-color;
 }  Part of hover class need to check
 */
@@ -61,6 +67,24 @@ img {
     height:auto;
 }
 
+/* Removing Nav Overlap Elements--------------------------------------------------------*/
+body{
+    padding-top:60px;
+}
+
+.anti-nav-overlap{
+    position: relative; top: -60px;
+}
+
+@media  (max-width: 767px) {
+    body{
+       padding-top:120px; 
+    }
+
+    .anti-nav-overlap{
+    position: relative; top: -120px;
+    }
+}
 /* Nav Elements--------------------------------------------------------*/
 nav{
     width:100%;
@@ -133,13 +157,13 @@ header{
     background: url('../images/hero-image-tetris.jpg') center center / cover no-repeat fixed;
     width:100%;
     padding-bottom:40%;
-    max-height:600px;
+    max-height:500px;
 }
 
 .hero-image-content{
     color:#FFF;
     position:relative;
-    padding:12rem 10% 50px;
+    padding:8rem 10% 50px;
     text-align:center;
     text-transform:uppercase;
     display:block;
@@ -166,7 +190,7 @@ header{
 }
 
 /* About Us Elements--------------------------------------------------------*/
-#about-us{
+.about-us-content{
     background-image:url('../images/aboutsection.jpg') center center / cover repeat fixed;
     background-color:#5a0d0d;
     min-height:400px;
@@ -190,7 +214,7 @@ header{
 }
 
 /* Open Times Elements--------------------------------------------------------*/
-#open-times{
+.open-times-content{
     background-color:#632163;
     min-height:400px;
     text-align:center;
@@ -201,7 +225,6 @@ header{
     background-color:#036161;
     min-height:400px;
     text-align:center;
-    padding-top:60px;
 }
 
 #media-videos{
