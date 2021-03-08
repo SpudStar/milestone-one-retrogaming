@@ -5,17 +5,6 @@
     background-color:#be1616a8;
 }
 
-.hvr-fade{
-    transition-property: color,background-color ;
-}
-
-/*
-
-
-transition-property: color,background-color;
-}  Part of hover class need to check
-*/
-
 .nav-opentimes-link{
     background-color:#cf51cfa8;
 }
@@ -30,14 +19,17 @@ transition-property: color,background-color;
 
 .footer-facebook-link{
     background-color:#3b5998;
+    padding-right:2px;
 }
 
 .footer-twitter-link{
     background-color:#00acee;
+    padding-left:1px;
 }
 
 .footer-youtube-link{
     background-color:#FF0000;
+    padding-right:3px;
 }
 
 .footer-twitch-link{
@@ -60,6 +52,14 @@ a:hover{
     padding-bottom:30px;
     text-transform:uppercase;
     font-size:35px;
+}
+
+.impact-text{
+    font-family: Arial, sans-serif;
+}
+
+.reading-text{
+    font-family: Arial, sans-serif;
 }
 
 img {
@@ -97,12 +97,20 @@ nav{
     z-index: 1;
 }
 
-.mainlogo{
+
+.logo-container{
     height:60px;
+    max-width:290px;
     padding-top:5px;
+    margin:auto;
+}
+
+.mainlogo{
+    height:100%;
+    width:100%;
     text-decoration:none;
     color:#FFF;
-    font-family: 'DotGothic16';
+    font-family: 'DotGothic16', Arial, sans-serif;
 }
 
 .list-inline-item:not(:last-child){
@@ -182,16 +190,17 @@ header{
   border-radius: 25px;
   padding-top: 15px;
   margin:auto;
+  color:black;
+  font-weight:700;
 }
 
-.hero-button-text{
-    color:white;
-
+.hero-image-button:hover {
+  color:white;
 }
 
 /* About Us Elements--------------------------------------------------------*/
 .about-us-content{
-    background-image:url('../images/aboutsection.jpg') center center / cover repeat fixed;
+    background:url('../images/aboutsection.jpg') center center / cover repeat fixed;
     background-color:#5a0d0d;
     min-height:400px;
     text-align:center;
@@ -216,21 +225,24 @@ header{
 /* Open Times Elements--------------------------------------------------------*/
 .open-times-content{
     background-color:#632163;
+    background:url('../images/opensection.png') center center / cover repeat fixed;
     min-height:400px;
     text-align:center;
 }
 
 /* Media Elements--------------------------------------------------------*/
-#media-photos{
+.media-container{
+    background:url('../images/mediasection.png') center center / cover repeat fixed;
     background-color:#036161;
-    min-height:400px;
     text-align:center;
 }
 
-#media-videos{
-    background-color:#036161;
+.media-photos{
     min-height:400px;
-    text-align:center;
+}
+
+.media-videos{
+    min-height:400px;
 }
 
 .video-container{
@@ -239,16 +251,18 @@ header{
 }
 
 /* Sign Up Elements--------------------------------------------------------*/
-#member-benefits{
+.signup-container{
+    background:url('../images/signupsection.png') center center / cover repeat fixed;
     background-color:#6b430a;
-    min-height:400px;
     text-align:center;
 }
 
-#form{
-    background-color:#6b430a;
+.member-benefits{ 
     min-height:400px;
-    text-align:center;
+}
+
+#form{
+    min-height:400px;
 }
 
 /* Footer Elements--------------------------------------------------------*/
@@ -258,8 +272,8 @@ footer{
     color:#FFF;
     bottom:0;
     width:100%;
-    height:120px;
-    padding-top:13px;
+    min-height:180px;
+    padding:13px 0;
 }
 
 .footer-list-item{
@@ -276,5 +290,17 @@ footer{
     border-radius:50%;
     border: 3px solid black;
     padding-top:3px;
+}
+
+.contact-container{
+    text-align:center;
+    display: inline-block;
+}
+
+.contact-container p{
+    font-size:14px;
+    height:10px;
+    margin:0 0 10px 0;
+    padding:0;
 }
 

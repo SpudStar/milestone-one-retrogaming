@@ -10,19 +10,21 @@
     
     <title>Retro Gamers | Media</title>
 
-    <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"/>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
 <!--Nav Bar------------------------------------------------------------------------>
     <nav>
         <div class="row no-gutters">
-        <a href="index.html" class="col-md-6 col-sm-12 mainlogo">
-            <h1>RETRO GAMERS</h1>
-        </a>
+           <div class="col-md-6 col-sm-12 logo-container">
+                <a href="index.html"  class="mainlogo">
+                   <h1>RETRO GAMERS</h1>
+                </a>
+           </div>
            <div class="col-md-6 col-sm-12 nav-container">
                 <ul id="nav" class="list-inline">
                     <li class="list-inline-item nav-aboutus-link nav-list-item">
@@ -43,29 +45,25 @@
         </div>
     </nav>
 <!--Media------------------------------------------------------------------------>
-    <section id="media-photos">
-        <h3 class="section-title">Media</h3>
-        <div>
-            Container div for photos
+    <section class="media-container">
+        <div class="media-photos">
+            <h3 class="section-title">Media</h3>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12"></div>
+            </div>
         </div>
-        <div>
-            Container div for links
-        </div>
-    </section>
 
-    <section id="media-videos">
-        <div class="row no-gutters">
+        <div class="media-videos">
+            <div class="row no-gutters">
           <!-- <video src="https://www.youtube.com/watch?v=BJ7To28w3DY" type="video/webm" width="500" muted controls> --> 
             
-            <div class="col-12 col-sm-6 video-container">
-                <iframe width="400" height="225" src="https://www.youtube.com/watch?v=BJ7To28w3DY" allowfullscreen></iframe>
+                <div class="col-12 col-sm-6 video-container">
+                   <iframe width="400" height="225" src="https://www.youtube.com/watch?v=BJ7To28w3DY" allowfullscreen></iframe>
+                </div>
+                <div class="col-12 col-sm-6 video-container">
+                   <iframe width="400" height="225" src="https://www.youtube.com/watch?v=BJ7To28w3DY" allowfullscreen></iframe>
+                </div>
             </div>
-            <div class="col-12 col-sm-6 video-container">
-                <iframe width="400" height="225" src="https://www.youtube.com/watch?v=BJ7To28w3DY" allowfullscreen></iframe>
-            </div>
-        </div>
-        <div>
-            Container div for links
         </div>
     </section>
 <!--Footer------------------------------------------------------------------------>
@@ -85,6 +83,9 @@
                     <a href="https://www.twitch.com" target="_blank" rel="noopener" class="footer-twitch-link"><i class="fa fa-twitch"></i></a>
                 </li>
             </ul>
+        <div class="contact-container">
+        <h6>Contact Us:</h6><p> TEL: +44 758 778 3425</p><p> EMAIL: retrogamers@gmail.com</p>
+        </div>
     </footer>
 
 </body>
