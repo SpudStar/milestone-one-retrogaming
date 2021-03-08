@@ -162,6 +162,11 @@ nav{
     .nav-list-item a i{
         font-size:30px;
     }
+
+    h1{
+        font-size:30px;
+        padding-top:10px;
+    }
 }
 /* Hero Image Elements--------------------------------------------------------*/
 header{
@@ -322,6 +327,7 @@ header{
     background:url('../images/signupsection.png') center center / cover repeat fixed;
     background-color:#6b430a;
     text-align:center;
+    padding-bottom:40px;
 }
 
 .member-benefits{ 
@@ -351,7 +357,70 @@ header{
 }
 
 .form-container{
-    min-height:400px;
+    color:white;
+    text-align:left;
+    margin:auto;
+    padding:5%;
+    background-color:#34343459;
+    border:solid black;
+    border-radius:3px;
+    max-width:700px;
+}
+
+.radio-input{
+    margin-right:10%;
+    display:inline-block;
+    text-align:center;
+}
+
+.input-field{
+    background-color:#422d06c7;
+    color:white;
+    border:solid black;
+    border-radius:3px;
+    border-width:2px;
+    width:100%;
+}
+
+.halfbox{
+    width:45%;
+    padding-right:5%;
+    display:inline-block;
+}
+
+.buttonbox{
+    padding-top:40px;
+}
+
+.submit-button{
+    width:100px;
+    height:50px;
+    border:solid black;
+    border-radius:3px;
+    border-width:2px;
+    color:white;
+    background-color: #6b430a;
+    cursor:pointer;
+}
+
+.reset-button{
+    width:100px;
+    height:50px;
+    border:solid black;
+    border-radius:3px;
+    border-width:2px;
+    color:white;
+    background-color: #422d06;
+    cursor:pointer;
+    float:right;
+}
+
+@media  (max-width: 350px) {
+    .halfbox{
+    width:100%;
+    padding-right:0;
+    display:block;
+    }
 }
 
 /* Footer Elements--------------------------------------------------------*/

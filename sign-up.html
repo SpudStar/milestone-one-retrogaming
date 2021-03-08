@@ -66,8 +66,65 @@
         </div>
         
         <div class="form-container">
-            <form method="POST">
-
+            <form action="https://formdump.codeinstitute.net" method="POST">
+                <div>
+                    <label>*Title:</label>
+                    <div class="radio-input">
+                    <label for="mr">Mr</label>
+                    <input type="radio" id="mr" name="title" value="mr" required>
+                    </div>
+                    <div class="radio-input">
+                    <label for="mrs">Mrs</label>
+                    <input type="radio" id="mrs" name="title" value="mrs" required>
+                    </div>
+                    <div class="radio-input">
+                    <label for="miss">Miss</label>
+                    <input type="radio" id="miss" name="title" value="miss" required>
+                    </div>
+                    <div class="radio-input">
+                    <label for="ms">Ms</label>
+                    <input type="radio" id="ms" name="title" value="ms" required>
+                    </div>
+                    <div class="radio-input">
+                    <label for="mx">Mx</label>
+                    <input type="radio" id="mx" name="title" value="mx" required>
+                    </div>
+                </div>
+                <div class="halfbox">
+                    <label for="firstname">*Firstname:</label>
+                    <input class="input-field" type="text" id="firstname" name="firstname" required>
+                </div>
+                <div class="halfbox">
+                    <label for="lastname">*Surname:</label>
+                    <input class="input-field" type="text" id="surname" name="surname" required>
+                </div>
+                <div>
+                    <label for="address1">*Address Line 1:</label>
+                    <input class="input-field" type="text" id="address1" name="address1" required>
+                </div>
+                <div>
+                    <label for="address2">Address Line 2:</label>
+                    <input class="input-field" type="text" id="address2" name="address2">
+                </div>
+                <div class="halfbox">
+                    <label for="town-city">*Town/City:</label>
+                    <input class="input-field" type="text" id="town-city" name="town-city" required>
+                </div>
+                <div class="halfbox">
+                    <label for="postcode">*Postcode:</label>
+                    <input class="input-field" type="text" id="postcode" name="postcode" required>
+                </div>
+                <div>
+                    <label for="email">*Email:</label>
+                    <input class="input-field" type="email" id="email" name="email" required>
+                </div>
+                <div class="halfbox">
+                    <label for="phone">Telephone:</label> <!--Code for tel input found online-->
+                    <input class="input-field" type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
+                </div>
+                <div class="buttonbox">
+                    <button class="submit-button" type="submit">SIGN UP</button> <button class="reset-button" type="reset">RESET</button>
+                </div>
             </form>
         </div>
     </section>
