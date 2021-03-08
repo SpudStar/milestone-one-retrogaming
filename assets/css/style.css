@@ -242,12 +242,20 @@ header{
 }
 
 .media-videos{
-    min-height:400px;
+    width:100%;
 }
 
 .video-container{
-    margin:40px auto;
-    min-width:440px;
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%; /*Allows it to keep aspect ratio (Found using internet)*/
+}
+
+.video-frame{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left:10%;
 }
 
 /* Sign Up Elements--------------------------------------------------------*/
